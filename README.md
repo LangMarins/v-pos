@@ -9,8 +9,10 @@ yarn install
 ```
 yarn serve
 ```
-Powershell:    npx yarn serve
-            ```
+### Compiles for PowerShell
+```
+npx yarn serve
+```
 
 ### Compiles and minifies for production
 ```
