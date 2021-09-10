@@ -1,7 +1,5 @@
 <template>
-  <v-container>
-      <h1>home page</h1>
-  </v-container>
+  <h1>StockCreate page</h1>
 </template>
 
 <script>

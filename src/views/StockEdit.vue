@@ -1,7 +1,5 @@
 <template>
-  <v-container>
-      <h1>home page</h1>
-  </v-container>
+  <h1>StockEdit page</h1>
 </template>
 
 <script>

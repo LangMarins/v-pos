@@ -1,6 +1,6 @@
 <template>
   <v-container>
-      <h1>home page</h1>
+      <h1>Stock page</h1>
   </v-container>
 </template>
 

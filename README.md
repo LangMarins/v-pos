@@ -9,12 +9,13 @@ yarn install
 ```
 yarn serve
 ```
+Powershell:    npx yarn serve
+            ```
 
 ### Compiles and minifies for production
 ```
 yarn build
 ```
-
 ### Lints and fixes files
 ```
 yarn lint
@@ -25,4 +26,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 ### install packetes
-~ vue add vuetify
+vue add vuetify
+```

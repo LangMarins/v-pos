@@ -1,15 +1,11 @@
 <template>
   <v-container>
-      <h1>home page</h1>
+    <h1>login page</h1>
   </v-container>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
-</style>
+<style></style>
