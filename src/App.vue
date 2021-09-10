@@ -1,17 +1,23 @@
 <template>
   <v-app>
-    <div>
-      <h1>langmarins</h1>
-      <v-btn color="info" class="black--text">text</v-btn>
-      <v-icon>email</v-icon>
-      <hr>
-      <router-view></router-view>
-    </div>
+    <Header />
+    <Menu />
+    <Content />
   </v-app>
 </template>
 
 <script>
-export default {};
+import Header from "@/components/core/Header";
+import Menu from "@/components/core/Menu";
+import Content from "@/components/core/Content";
+
+export default {
+  components: {
+    Header,
+    Menu,
+    Content,
+  },
+};
 </script>
 
 <style></style>
