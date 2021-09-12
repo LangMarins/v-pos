@@ -2,7 +2,11 @@
   <v-container>
     <v-row class="justify-center">
       <v-card style="width: 400px">
-        <v-img src="@/assets/vuejs-wallpapers.jpg" height="200px" />
+        <v-img class="black--text align-end" src="@/assets/vuejs-wallpapers.jpg" height="200px">
+          <v-card-title primary-title>
+            V-POS
+          </v-card-title>
+        </v-img>
         <v-card-text>
           <v-form>
             <!-- Username -->
@@ -19,8 +23,8 @@
 
             <!-- Buttons -->
             <v-row class="justify-space-between px3">
-              <v-btn text>Register</v-btn>
-              <v-btn color="success">Login</v-btn>
+              <v-btn text @click.prevent="$router.push('/register')">Register</v-btn>
+              <v-btn @click="$store.state.isLogged = !$store.state.isLogged" color="success">Login</v-btn>
             </v-row>
           </v-form>
         </v-card-text>
