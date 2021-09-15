@@ -7,7 +7,7 @@
 
       <v-spacer></v-spacer>
 
-      <span>username</span>
+      <span>{{$store.getters["username"] | capitalize}}</span> <!-- cappitalize => Amin | uppercase => ADMIN -->
       <v-btn color="success" icon @click="onClickLogOff">
         <v-icon>material-icons logout</v-icon>
       </v-btn>
@@ -22,6 +22,11 @@ export default {
     version() {
       return "0.1.0";
     },
+  },
+  methods: {
+    onClickLogOff(){
+      this.$store.dispatch('doLogout')
+    }
   },
 };
 </script>
